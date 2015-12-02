@@ -27,6 +27,10 @@ Create  a Release Version in Nuxeo Studio and be sure the following configuratio
 
 Install the release package in the server and restart the server
 
+**Note:** First you have to create all the groups available in Studio and the other ones to approve the offer signature. Additionaly you have to create an user to use the Offer Excel Template. The user credentials has to be:
+username:offer_manager_user
+pass:123
+
 ##### Importing data
 
 Import the information in the following order. The data is available on **K:\PROJECTS\00\00083\00083-03 Ontwikkelingen intern\PMP\nuxeo_import_data\FINAL DATA TO IMPORT**
