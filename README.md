@@ -34,17 +34,18 @@ pass:123
 ##### Importing data
 
 Import the information in the following order. The data is available on **K:\PROJECTS\00\00083\00083-03 Ontwikkelingen intern\PMP\nuxeo_import_data\FINAL DATA TO IMPORT**
+* [IMDC users] - employees_to_import7.csv
 * [Companies] - companies.csv
 * [clients] - contacts.csv
-* [IMDC users] - employees_to_import7.csv
 * [Projects] - projects_full_version_to_import.csv
     * Run additional script to syncronized project clients and client_id Nuxeo repository: **nuxeo_update_project_clients.py** It uses the Nuxeo REST API
+    * Check the **end_date** field in the projects CSV file. If the data is wrong you have to run the following script to fix it directly in Nuxeo: **projects_update_end_date**
 * [Project References] - project_references_full_version_to_import.csv
 * [IMDC CVs] - The information will be imported using the REST API run the script: **get_new_cv_data.py**
     * Be sure the URL_SERVER is on http://imdc-nuxeo:8080/nuxeo/
     * Loop over all IMDC user in the main function
-* [CE] - **TODO**
-* [FICHES] - **TODO**
+* [CE] - copy all the files to the Nuxeo data directory, then import as usual using the CSV file that must be located in the same folder
+* [FICHES] - copy all the files to the Nuxeo data directory, then import as usual using the CSV file that must be located in the same folder
 
 #### Step 2
 Create a new relase in Studio and be sure the following EH are enable:
