@@ -23,6 +23,7 @@ Create  a Release Version in Nuxeo Studio and be sure the following configuratio
     *   *eh_create_project*
     *   *eh_set_default_project_reference*
     *   *eh_set_project_reference_available*
+    *   *eh_edit_curriculum_new*
 - Users and groups: Be sure you have the creation policy is set on Don't override existing values
 - Vocabularies: Be sure all the creation policy are set on Don't override existing values
 
