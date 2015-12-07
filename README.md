@@ -21,6 +21,7 @@ Create  a Release Version in Nuxeo Studio and be sure the following configuratio
 > and the the user configuration before import the data
   - Event Handlers: check the following EH contains a dummy restriction in currentDocument State to avoid its execution
     *   *eh_create_project*
+    *   *eh_set_default_project_reference*
     *   *eh_set_project_reference_available*
 - Users and groups: Be sure you have the creation policy is set on Don't override existing values
 - Vocabularies: Be sure all the creation policy are set on Don't override existing values
