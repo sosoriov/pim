@@ -1,4 +1,4 @@
-# PIM - IMDC INSTALLATION VERSION 1.0
+# Nuxeo - IMDC INSTALLATION VERSION 1.0
 
 This version includes the import of the existing 
   - projects
