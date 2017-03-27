@@ -19,6 +19,9 @@ It will allow you to search on files including "smart" search
 Once it's created, you have to added it to your **nuxeo.conf** file: check __my-custom-mapping__ below
 ` nuxeo.templates=postgresql,drive,imdc-package,my-custom-mapping `
 
+Adding your new mapping in Studio:
+![Studio configuration](assets/custom_mapping_widget_configuration.png)
+
 
 For more information, check nuxeo documentation:
 
