@@ -101,4 +101,10 @@ root     21262  0.0  0.0 112640   948 pts/0    S+   14:41   0:00 grep --color=au
 * Nuxeo will now restart the service.
 
 
+graph TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[fa:fa-car Car]
 
